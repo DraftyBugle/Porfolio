@@ -1,0 +1,80 @@
+.Container1{
+  min-height: 100vh; 
+ 
+ background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url('../assets/IMG/Atardecer.png');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
+  background-position: center center; /* Centra la imagen horizontal y verticalmente */
+ /*
+  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+
+ display: flex;
+ align-items: center; /* Centra verticalmente */
+ justify-content: center;
+}
+
+.Saludo{
+
+      font-size: 2rem;
+        font-weight: 500;
+     color:  #222;
+     letter-spacing: 4px;
+   
+      color: #fff;
+      
+    
+      text-align: center;
+      Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+     
+    }
+     .Saludo :hover{
+      text-shadow:  
+      0 0 5px #f403b8, 
+       0 0 10px #f403b8,
+       0 0 15px #f403b8,
+       0 0 20px #f403b8,
+       0 0 25px #f403b8;
+      
+     }
+    .Nombre{
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+
+ 
+     .Boton{
+     
+      background-color: #a30e7e;
+      border-radius: 50PX;
+        font-size: 20px;
+ background-color: #a30e7e;
+padding: 20px;
+  text-shadow:  0 0 5px #f403b8, 
+  0 0 10px #f403b8,
+  0 0 15px #f403b8,
+  0 0 20px #f403b8,
+  0 0 25px #f403b8;
+ cursor: pointer;
+   color: #fff;
+text-transform: uppercase;
+ 
+ 
+   border-color: white;
+   opacity: 0;
+   transition: opacity 1s ease-in-out; 
+     }
+     .Boton.visible {
+        opacity: 1;
+      }
+   .Boton:hover{
+    font-size: 1.3rem;
+    background-color: #a30e7e;
+   }
+
+      .me{
+        height: 100px;
+        width: 100px;
+      border-radius: 60px;  
+        }

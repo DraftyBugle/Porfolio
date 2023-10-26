@@ -1,0 +1,24 @@
+.Container4{
+    min-width: 100vh;
+ 
+  
+
+
+
+  
+        min-height: 100vh; 
+    
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url("../assets/IMG/Atardecer.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    
+}
+
+.Contacto{
+    display: flex;
+    justify-content: center;
+   
+}

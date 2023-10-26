@@ -1,0 +1,224 @@
+.Container2{
+    min-height: 100vh; 
+
+background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url("../assets/IMG/Atardecer.png");
+
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
+background-position: center center; /* Centra la imagen horizontal y verticalmente */
+
+
+
+ /*Flex DE ABOUT */
+ display: flex;
+align-items: center;
+justify-content: center;
+gap: 90px;
+
+
+                     
+                      ;
+                     
+
+}
+
+.Text{
+   font-size: 20px;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+   color: white;
+   width: 500PX; 
+
+ 
+}
+.SobreMi{
+    font-size: 45px;
+    letter-spacing: 1px;
+
+     color: white;
+     
+}
+.About{
+  grid-area: About;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    margin: 50px;
+    Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+}
+/*Cartasde de habilidades*/
+  .GridT{
+    grid-area: Habilidades;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+  gap: 20px;
+ 
+  grid-template-areas: "html css js react"
+                        "ts sql git github" ;
+                        
+                      }
+
+
+
+                      
+.card1{
+  grid-area: html;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+
+}
+
+
+
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+.card3{
+  grid-area: js;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+.card4{
+  grid-area: react;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+}
+.card5{
+  grid-area: ts;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+.card6{
+  grid-area: sql;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+.card7{
+  grid-area: git;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+.card8{
+  grid-area: github;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+  background-color: rgb(109, 36, 158 , 0.7);
+  
+  backdrop-filter: blur(30px);
+  width: 100px;
+  height:100px;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s;
+  
+}
+
+.cardImg{
+ 
+  height: 50px;
+  width: 50px;
+}
+
+/**ANIMISTA*/
+.slide-in-elliptic-top-fwd {
+	animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @keyframes slide-in-elliptic-top-fwd {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+

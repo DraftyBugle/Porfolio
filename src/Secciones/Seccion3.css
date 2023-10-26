@@ -1,0 +1,31 @@
+.Container3{
+    min-height: 100vh; 
+   
+  
+        min-height: 100vh; 
+    
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url("../assets/IMG/Atardecer.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    
+   
+}
+
+.Proyectos{
+   
+font-size: 40px;
+letter-spacing: 1px;
+
+ color: white;
+ Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+ display: flex;
+ justify-content: center;
+}
+.ProyectosCard{
+    display: flex;
+    justify-content: center;
+  }
+
