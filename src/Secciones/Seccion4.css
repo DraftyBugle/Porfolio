@@ -15,10 +15,13 @@
     background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
     background-position: center center; /* Centra la imagen horizontal y verticalmente */
     
+    display: flex;
+   
+    justify-content: center;
 }
 
 .Contacto{
     display: flex;
-    justify-content: center;
-   
+   align-content: center;
+   align-items: center;
 }

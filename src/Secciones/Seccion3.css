@@ -11,21 +11,25 @@
     background-attachment: fixed; /* Esto evita que la imagen se desplace al hacer scroll */
     background-position: center center; /* Centra la imagen horizontal y verticalmente */
     
-   
 }
 
 .Proyectos{
-   
+ text-align: center;
+position: relative;
+
+top:100px;
+   grid-area: Title;
 font-size: 40px;
 letter-spacing: 1px;
 
  color: white;
  Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
- display: flex;
- justify-content: center;
+
 }
 .ProyectosCard{
+    grid-area: CardProyect;
     display: flex;
     justify-content: center;
+    margin-top: 140px;
   }
 

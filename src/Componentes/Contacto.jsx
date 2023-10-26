@@ -5,9 +5,15 @@ function Contacto (){
         <>
         <div className="Card">
             <div className="Contactame"><h2>Contactame</h2></div>
-             <a href="">Linked</a>
-            <a href="">Email</a>
-            <a href="">WPP</a>
+            <div className="Contactos">
+            <ul className="LEW">
+                <li ><a href="" className="Link">Linkedin</a></li>
+                <li >  <a href=""   className="Email">Fedeterrezas gmail.com</a></li>
+                <li >  <a href="" className="Wpp">WhatSapp</a></li>
+            </ul>
+             
+            </div>
+           
         </div>
         </>
     )

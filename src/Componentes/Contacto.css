@@ -17,3 +17,38 @@ border-bottom: solid rgb(255, 255, 255) 0.5px;
     0 0 25px #f403b8;
    
      color: #fff;}
+
+  .Contactos{
+    text-align: center;
+    padding: 30px;
+   
+  }
+
+  .LEW{
+    border: 1px solid;
+    padding: 30px;
+  }
+
+  .LEW li{
+    border: 1px solid;
+    padding: 20px;
+  }
+
+.LEW li a{
+    font-size: 30px;
+    border: 1px solid;
+border-radius: 20px;
+padding: 8px;
+text-transform: capitalize;
+
+}
+.Link{
+    background-color: #0a66c2;
+}
+
+.Email{
+    background-color: red;
+}
+.Wpp{
+    background-color:green ;
+}
