@@ -1,23 +1,54 @@
 
+.Button{
+    color:  white;
+ position:fixed;
+
+z-index: 1000; 
+font-size: 40px;
+display: flex;
+right: 50px;  
+top: 15px;
+
+
+ }
+
+
+ .Button:hover {
+color: #f403b8;
+
+  }
+
+.Menu{
+    width: 100%; 
+    z-index: 999; 
+    position:fixed;
+  
+   
+   
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+    background-color: rgb(109, 36, 158 , 0.7);
+
+    border-bottom: solid 1px;
+    border-color: #fff;
+
+}
+
+
+/*-----------Style list--------------*/
 ul{
     list-style: none;
    
-   
-   
 }
+.Lista{ 
+ 
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+ padding: 20px;
 
-a{     color: white;
-        font-size: 1.4rem;
-        font-weight: 500;
-   text-decoration: none;
-   text-transform: uppercase;
-     letter-spacing: 4px;
-    
-     Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
-    
-    
+
 }
-a:hover{
+.Lista li a:hover{
     text-shadow:  
     0 0 5px #f403b8, 
      0 0 10px #f403b8,
@@ -26,19 +57,120 @@ a:hover{
      0 0 25px #f403b8;
      color: #fff;
 }
-.Lista{ 
-  
-    gap: 40px;
-    display: flex;
-    justify-content: center;
- padding: 20px;
+.Lista li a{     color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+text-decoration: none;
+text-transform: uppercase;
+ letter-spacing: 4px;
+
+ Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+
 
 }
-.Container{
-    position: sticky;
-    top: 0;
-    background-color: rgb(109, 36, 158);
-    z-index: 999; 
-    border-bottom: solid 1px;
-    border-color: #fff;
+
+/*------------------------------Mediaquery------------------------*/
+@media screen and (max-width: 840px) {
+    .Lista{ 
+ 
+        gap: 30px;
+     
+     
+    
+    
+    }
+   
 }
+@media screen and (max-width: 780px) {
+    .Lista{ 
+ 
+        gap: 10px;
+     
+     
+    
+    
+    }
+   
+}
+
+
+
+@media screen and (max-width: 718px) {
+    .Menu{
+        padding: 20px;
+        color:  white;
+        display: flex;
+        text-align: center;
+    
+        
+        width: 30%;
+        
+        height: 100%;
+        right: 0px;  
+        border-radius: 20px;
+    }
+
+.Lista{
+     
+    gap: 50px;
+    flex-direction: column;
+
+
+
+}
+.Button{
+
+
+
+right: 20px;  
+top: 15px;
+
+
+ }
+ 
+ .Lista li a:hover{
+    border-right: black 5px solid;
+    border-radius: 5px;
+    border-color: white;
+    margin-right: 20px;
+    font-size: 25px;
+
+ }
+
+   
+}
+
+
+@media screen and (max-width: 660px) {
+    .Menu{
+       
+    
+        
+        width: 35%;
+        
+   
+       
+     
+    }}
+    @media screen and (max-width: 540px) {
+        .Menu{
+           
+        
+            
+            width: 40%;
+            
+       
+           
+         
+        }}
+        @media screen and (max-width: 430px) {
+            .Menu{
+               
+            
+                
+                width: 60%;
+                
+           
+               
+             
+            }}

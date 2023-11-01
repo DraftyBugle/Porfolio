@@ -72,9 +72,7 @@ function Seccion1() {
         <h3 className='Nombre'>{h3Texto}</h3>
         <h4 className='Dev'>{h4Texto}</h4>
        <div> <img src={Me} alt=""  className='me'/></div>
-        {mostrarBoton && (
-          <button     className={`Boton ${mostrarBoton ? 'visible' : ''}`}>Contactame</button>
-      )}
+      
       </div>
 
      

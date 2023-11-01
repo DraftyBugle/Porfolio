@@ -2,7 +2,6 @@
     min-height: 100vh; 
    
   
-        min-height: 100vh; 
     
     background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url("../assets/IMG/Atardecer.png");
     
@@ -14,12 +13,13 @@
 }
 
 .Proyectos{
+    font-size: 20px;
  text-align: center;
 position: relative;
 
-top:100px;
+top:90px;
    grid-area: Title;
-font-size: 40px;
+
 letter-spacing: 1px;
 
  color: white;
@@ -30,6 +30,6 @@ letter-spacing: 1px;
     grid-area: CardProyect;
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 100px;
   }
 

@@ -47,7 +47,7 @@ function Seccion2(){
 
 
 <div className="About">
-<h1 className="SobreMi">Sobre mi...</h1>
+<h2 className="SobreMi">Sobre mi...</h2>
         <p className="Text">
         Mi camino en el mundo de la programación comenzó impulsado por mi pasión por los desafíos y mi creatividad. 
 

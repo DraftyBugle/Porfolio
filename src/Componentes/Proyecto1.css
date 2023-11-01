@@ -74,3 +74,21 @@ padding: 5px;
   padding: 3px;  
 background-color: rgb(30, 30, 119);
 }
+
+@media screen and (max-width: 430px) {
+  .CardEcomerce{
+
+   width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.IMGP1{
+    width: 300px;
+    border-radius: 20px;
+   
+}
+   
+                      
+}
+       

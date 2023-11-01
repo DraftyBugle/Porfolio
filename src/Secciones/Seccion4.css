@@ -1,11 +1,7 @@
 .Container4{
-    min-width: 100vh;
+
  
-  
 
-
-
-  
         min-height: 100vh; 
     
     background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url("../assets/IMG/Atardecer.png");
@@ -25,3 +21,4 @@
    align-content: center;
    align-items: center;
 }
+

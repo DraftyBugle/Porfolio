@@ -15,8 +15,8 @@ function Seccion4(){
      
        sr.reveal('.Contacto',{
           duration: 1500,
-          origin:"bottom",
-          distance:"-200px",
+          origin:"top",
+          distance:"-300px",
           delay: 100
        
         });

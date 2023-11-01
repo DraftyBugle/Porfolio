@@ -1,54 +1,118 @@
 .Card{
-    border: 1px solid black;
+   
     border-radius: 20px;
   
-    background-color: #a30e7e;;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)) ;
+    background-color: rgb(109, 36, 158 , 0.7);
     min-width: 300px;
     min-height: 200px;
 }
 .Contactame{
+  letter-spacing: 4px;
+  font-size: 20px;
 text-align: center;
 padding: 20px;
-border-bottom: solid rgb(255, 255, 255) 0.5px;
-    text-shadow:  0 0 5px #f403b8, 
-    0 0 10px #f403b8,
-    0 0 15px #f403b8,
-    0 0 20px #f403b8,
-    0 0 25px #f403b8;
+Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
    
      color: #fff;}
 
   .Contactos{
     text-align: center;
-    padding: 30px;
+   
    
   }
 
   .LEW{
-    border: 1px solid;
-    padding: 30px;
+
+    padding: 10px;
   }
 
   .LEW li{
-    border: 1px solid;
+display: flex;
+
+gap: 10px;
     padding: 20px;
   }
 
 .LEW li a{
-    font-size: 30px;
-    border: 1px solid;
+    font-size: 20px;
+   
 border-radius: 20px;
 padding: 8px;
-text-transform: capitalize;
+
+color: white;
+
+
+text-decoration: none;
+
+letter-spacing: 4px;
+
+Text-shadow: 0px    3px     2px   rgba(0, 0, 0, 0.9); 
+
+
 
 }
 .Link{
     background-color: #0a66c2;
-}
+    Text-shadow: 0px    3px     1px   rgba(0, 0, 0, 0.9); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
 
 .Email{
-    background-color: red;
+    background-color: rgba(167, 13, 13, 0.87);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .Wpp{
-    background-color:green ;
+    background-color:rgb(1, 68, 1) ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*Estilos de iconos*/
+.Icon1{
+  width: 40px;
+}
+.Icon2{
+  width: 40px;
+}
+.Icon3{
+  width: 40px;
+}
+
+/*Meida*/
+@media screen and (max-width: 575px) {
+  .Card{
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .LEW{
+
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Contactame{
+    letter-spacing: 4px;
+    font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+     
+       color: #fff;}
+       .LEW li{
+        display: flex;
+        
+        gap: 5px;
+            padding: 20px;
+          }
+          .LEW li a{
+            font-size: 11px;
+           
+      
+        padding: 8px;
+        
+       
+        letter-spacing: 2px;
+        
+        
+        }
 }
