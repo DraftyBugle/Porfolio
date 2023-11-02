@@ -1,0 +1,11 @@
+.Cargando{
+      min-height: 100vh; 
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    background: rgb(101,6,164);
+    background: linear-gradient(176deg, rgba(101,6,164,1) 0%, rgba(192,0,21,1) 57%, rgba(207,0,0,1) 62%, rgba(154,89,0,1) 99%);
+    color:  #fff;
+Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+transition: 3s;
+}

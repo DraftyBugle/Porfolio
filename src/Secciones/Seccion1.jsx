@@ -4,21 +4,6 @@ import  Me   from "../assets/IMG/person.png"
 
 function Seccion1() {
 
-    const [mostrarBoton, setMostrarBoton] = useState(false);
-
-    useEffect(() => {
-      // Espera 3 segundos antes de mostrar el botón
-      const timeout = setTimeout(() => {
-        setMostrarBoton(true);
-      }, 2500);
-  
-      // Limpia el timeout al desmontar el componente
-      return () => clearTimeout(timeout);
-    }, []); // El segundo argumento [] asegura que esto solo se ejecute una vez al montar el componente
-  
-
-
-
     const [h1Texto, setH1Texto] = useState('');
     const [h3Texto, setH3Texto] = useState('');
     const [h4Texto, setH4Texto] = useState('');
