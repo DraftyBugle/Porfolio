@@ -9,6 +9,7 @@ import TS from "../assets/IMG/TS.png"
 import SQL from "../assets/IMG/SQL.png"
 import GITH from "../assets/IMG/GITH.png"
 import Gits from "../assets/IMG/Gits.png"
+import { ImDownload3 } from 'react-icons/im';
 //importo scrollReal
 import ScrollReveal from 'scrollreveal';
 
@@ -54,6 +55,10 @@ function Seccion2(){
         Programar es un arte en constante evolución, y me emociona la idea de enfrentar retos complejos y dar vida a proyectos innovadores.
          Mi enfoque se basa en la resolución de problemas y la búsqueda constante de mejorar.
 </p>
+ <a href="../assets/CV/CV Federico Maguna Terrazas.pdf" download>
+    <button className=" BotonD"><ImDownload3 className="iconD"/>Descargar CV</button>
+</a>
+
 </div>
 
    <div className="GridT">
