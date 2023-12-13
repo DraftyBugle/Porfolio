@@ -19,7 +19,10 @@ function Proyecto1(){
    
 </div>
 <div className="VerP1">
-   <button className="ButonP1">Ver</button>
+    <a href="https://github.com/DraftyBugle/Ecommerce">  
+    <button className="ButonP1">Git hub</button>
+     </a>
+   
    </div>
 </div>
        
