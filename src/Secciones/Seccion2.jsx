@@ -55,8 +55,11 @@ function Seccion2(){
         Programar es un arte en constante evolución, y me emociona la idea de enfrentar retos complejos y dar vida a proyectos innovadores.
          Mi enfoque se basa en la resolución de problemas y la búsqueda constante de mejorar.
 </p>
- <a href="../assets/CV/CV Federico Maguna Terrazas.pdf" download>
-    <button className=" BotonD"><ImDownload3 className="iconD"/>Descargar CV</button>
+ <a href="../assets/CV/Federico_Terrazas.pdf" download>
+    <button className=" BotonD">
+      <ImDownload3 className="iconD" />
+      Descargar CV
+      </button>
 </a>
 
 </div>
