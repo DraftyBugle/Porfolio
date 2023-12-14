@@ -28,16 +28,16 @@ gap: 90px;
    font-size: 20px;
    letter-spacing: 4px;
    text-transform: uppercase;
-   Text-shadow: 0px    4px     1px   rgba(0, 0, 0, 0.9); 
+   Text-shadow: 0px    2.5px     1px   rgba(0, 0, 0, 0.9); 
    color: white;
    width: 500PX; 
-
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  
 }
 .SobreMi{
     font-size: 45px;
     letter-spacing: 1px;
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      color: white;
      
 }

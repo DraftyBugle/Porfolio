@@ -9,6 +9,7 @@ import TS from "../assets/IMG/TS.png"
 import SQL from "../assets/IMG/SQL.png"
 import GITH from "../assets/IMG/GITH.png"
 import Gits from "../assets/IMG/Gits.png"
+import NJS from "../assets/IMG/Nodejs.png"
 import { ImDownload3 } from 'react-icons/im';
 //importo scrollReal
 import ScrollReveal from 'scrollreveal';
@@ -55,7 +56,7 @@ function Seccion2(){
         Programar es un arte en constante evolución, y me emociona la idea de enfrentar retos complejos y dar vida a proyectos innovadores.
          Mi enfoque se basa en la resolución de problemas y la búsqueda constante de mejorar.
 </p>
- <a href="../assets/CV/Federico_Terrazas.pdf" download>
+ <a href="https://drive.google.com/file/d/1NKOU0Kdu4Nwlq4oNaIQ9Br1SQkMouAcu/view" download>
     <button className=" BotonD">
       <ImDownload3 className="iconD" />
       Descargar CV
@@ -98,9 +99,9 @@ function Seccion2(){
 
     <div className="card5" > 
         <div >  
-           <img src={TS} alt=""  className="cardImg"/>
+           <img src={NJS} alt=""  className="cardImg"/>
       </div>
- <h3>Ts</h3>
+ <h3>Nodejs</h3>
     </div>
 
     <div className="card6" > 
